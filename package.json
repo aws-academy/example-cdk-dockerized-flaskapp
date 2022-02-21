@@ -1,0 +1,30 @@
+{
+  "name": "example-cdk-dockerized-flaskapp",
+  "version": "1.0.0",
+  "description": "Example of deploying dockerized Flask app into AWS with CDK",
+  "main": "packages/cdk/bin/run-stacks.js",
+  "scripts": {
+    "bootstrap": "cd packages/cdk && npm install",
+    "deploy": "cd packages/cdk && cdk deploy --all",
+    "destroy": "cd packages/cdk && cdk destroy --all",
+    "synth": "cd packages/cdk && cdk synth",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aws-academy/example-cdk-dockerized-flaskapp.git"
+  },
+  "keywords": [
+    "AWS",
+    "CDK",
+    "Flask",
+    "Deploy",
+    "Example"
+  ],
+  "author": "Oskari Pöntinen <mail.morko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aws-academy/example-cdk-dockerized-flaskapp/issues"
+  },
+  "homepage": "https://github.com/aws-academy/example-cdk-dockerized-flaskapp#readme"
+}
